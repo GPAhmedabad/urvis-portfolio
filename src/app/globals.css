@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #FFFFFF;
+    --foreground: #09090B;
+    --navy: #09090B;
+    --gold: #A27B31;
+  }
+
+  *,
+  body {
+    cursor: none !important;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-inter), sans-serif;
+    @apply antialiased overflow-x-hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-poppins), sans-serif;
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/60 backdrop-blur-xl border border-black/5;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.03);
+  }
+
+  .text-gold {
+    background: linear-gradient(135deg, #A27B31, #C5A02E, #846320);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .btn-premium {
+    @apply px-8 py-3 border border-gold text-gold relative overflow-hidden transition-all duration-300 z-10 font-bold uppercase tracking-widest text-sm rounded-sm;
+  }
+
+  .btn-premium::before {
+    content: '';
+    @apply absolute top-0 -left-full w-full h-full bg-gold transition-all duration-300 -z-10;
+  }
+
+  .btn-premium:hover::before {
+    @apply left-0;
+  }
+
+  .btn-premium:hover {
+    @apply text-white;
+  }
+}
+
+@theme {
+  --color-navy: #09090B;
+  --color-gold: #A27B31;
+  --color-gold-light: #C5A02E;
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-poppins);
+}
