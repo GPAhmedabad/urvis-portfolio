@@ -28,7 +28,7 @@ If asked a question outside of these topics or your profession, politely pivot t
 Keep your responses short, ideally 1-3 sentences.`;
 
         const model = genAI.getGenerativeModel({
-            model: "gemini-2.5-flash",
+            model: "gemini-1.5-flash",
             systemInstruction: systemPrompt
         });
 
@@ -72,10 +72,19 @@ Keep your responses short, ideally 1-3 sentences.`;
         const responseText = result.response.text();
 
         return NextResponse.json({ reply: responseText });
-    } catch (error) {
-        console.error("Chat API error:", error);
+    } catch (error: any) {
+        console.error("Chat API error details:", error);
+
+        // If it's a structural or API Key error from Google
+        if (error.message?.includes('API key not valid') || error.message?.includes('API key')) {
+            return NextResponse.json(
+                { error: "I'm currently undergoing maintenance to my AI systems (API Key Error). Please try again later or use the contact form below!" },
+                { status: 500 }
+            );
+        }
+
         return NextResponse.json(
-            { error: "I'm sorry, I'm having trouble connecting right now. Please try reaching out via the contact form below!" },
+            { error: "I'm sorry, my AI connection is currently experiencing difficulties. Please reach out via the contact form below!" },
             { status: 500 }
         );
     }
