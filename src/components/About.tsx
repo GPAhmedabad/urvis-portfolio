@@ -34,36 +34,38 @@ const About = () => {
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        whileHover={{ rotateY: 15, rotateX: -5, scale: 1.02 }}
+                        whileHover={{ rotateY: 5, rotateX: -2, scale: 1.02 }}
                         transition={{ duration: 0.8 }}
                         viewport={{ once: true }}
-                        className="flex-1 relative cursor-pointer perspective-1000"
+                        className="flex-1 w-full relative perspective-1000 mb-12 lg:mb-0"
                     >
-                        <div className="relative w-full aspect-square max-w-md mx-auto">
-                            {/* Glass Frame */}
-                            <div className="absolute inset-0 border-2 border-gold/30 rounded-2xl transform rotate-3 z-0"></div>
-                            <div className="absolute inset-0 glass rounded-2xl z-10 overflow-hidden">
+                        <div className="relative w-full max-w-sm md:max-w-md mx-auto aspect-[4/5] rounded-[2.5rem] p-2 bg-white/40 border-2 border-gold/20 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)]">
+                            <div className="relative w-full h-full rounded-[2rem] overflow-hidden bg-gray-100">
                                 <Image
                                     src="/assets/profile.jpg"
                                     alt="Prof. Urvish Soni"
                                     fill
-                                    className="object-cover"
+                                    className="object-cover object-top"
+                                    unoptimized
                                 />
                             </div>
-                            {/* Award Badge */}
+
+                            {/* Award Badge Premium Design */}
                             <motion.div
-                                initial={{ scale: 0 }}
-                                whileInView={{ scale: 1 }}
-                                transition={{ type: 'spring', stiffness: 260, damping: 20, delay: 0.5 }}
+                                initial={{ scale: 0, opacity: 0 }}
+                                whileInView={{ scale: 1, opacity: 1 }}
+                                transition={{ type: 'spring', stiffness: 200, damping: 20, delay: 0.4 }}
                                 viewport={{ once: true }}
-                                className="absolute -bottom-6 -right-6 glass p-4 rounded-xl border border-gold/50 z-20 flex items-center gap-3"
+                                className="absolute -bottom-8 right-0 md:-right-8 bg-gradient-to-br from-[#E6E4DD] to-[#D5D2C9] p-4 md:p-6 rounded-2xl border border-white shadow-2xl z-20 flex items-center gap-4 min-w-[260px] md:min-w-[300px]"
                             >
-                                <div className="w-12 h-12 bg-gold/20 rounded-full flex items-center justify-center text-gold">
-                                    🏆
+                                <div className="text-gold flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8 md:w-10 md:h-10">
+                                        <path fillRule="evenodd" d="M5.166 2.621v.858c-1.035.148-2.059.33-3.071.543a.75.75 0 00-.584.859 6.753 6.753 0 006.138 5.6 27.311 27.311 0 004.53-.002.75.75 0 00.152-1.488 25.845 25.845 0 01-4.22.002 5.253 5.253 0 01-4.757-4.303 52.067 52.067 0 013.812-.47v8.941c0 1.254.915 2.306 2.148 2.45v2.854a.75.75 0 001.5 0v-2.854c1.233-.144 2.148-1.196 2.148-2.45V2.973A53.682 53.682 0 0018.834 3.5a5.253 5.253 0 01-4.757 4.303 25.845 25.845 0 01-4.22-.002.75.75 0 00-.152 1.488 27.311 27.311 0 004.53.002 6.753 6.753 0 006.138-5.6.75.75 0 00-.584-.859 52.616 52.616 0 00-3.071-.543v-.858a.75.75 0 00-1.5 0v1.03A55.337 55.337 0 0012 2.25c-1.11 0-2.208.06-3.298.177v-1.03a.75.75 0 00-1.5 0z" clipRule="evenodd" />
+                                    </svg>
                                 </div>
                                 <div>
-                                    <p className="text-xs text-gold font-bold uppercase tracking-tighter">National Award</p>
-                                    <p className="text-sm font-semibold">Teacher of the Year</p>
+                                    <p className="text-[11px] md:text-[12px] font-bold uppercase tracking-widest text-[#B48E3D] mb-0.5">National Award</p>
+                                    <p className="text-[17px] md:text-[19px] font-bold text-[#1A1A1A] leading-tight tracking-tight">Teacher of the Year</p>
                                 </div>
                             </motion.div>
                         </div>
