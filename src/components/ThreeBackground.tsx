@@ -29,7 +29,7 @@ const ThreeBackground = () => {
             <div className="absolute top-0 left-[-10%] w-[50%] h-[70%] bg-[radial-gradient(ellipse_at_center,_rgba(197,160,89,0.1)_0%,_transparent_70%)] rounded-full blur-3xl opacity-60"></div>
             <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[80%] bg-[radial-gradient(ellipse_at_center,_rgba(45,74,143,0.05)_0%,_transparent_70%)] rounded-full blur-3xl opacity-60"></div>
 
-            {/* Slowly Floating Premium Orbs */}
+            {/* Slowly Floating Premium Orbs - HIDDEN ON MOBILE TO PREVENT LAG */}
             <motion.div
                 animate={{
                     y: [0, -40, 0],
@@ -41,7 +41,7 @@ const ThreeBackground = () => {
                     repeat: Infinity,
                     ease: "easeInOut"
                 }}
-                className="absolute top-[20%] right-[20%] w-[30%] h-[40%] bg-gold/10 rounded-full blur-[100px] opacity-40 mix-blend-multiply"
+                className="hidden md:block absolute top-[20%] right-[20%] w-[30%] h-[40%] bg-gold/10 rounded-full blur-[100px] opacity-40 mix-blend-multiply"
             />
 
             <motion.div
@@ -56,13 +56,13 @@ const ThreeBackground = () => {
                     ease: "easeInOut",
                     delay: 2
                 }}
-                className="absolute bottom-[20%] left-[20%] w-[35%] h-[45%] bg-[#C5A02E]/10 rounded-full blur-[120px] opacity-30 mix-blend-multiply"
+                className="hidden md:block absolute bottom-[20%] left-[20%] w-[35%] h-[45%] bg-[#C5A02E]/10 rounded-full blur-[120px] opacity-30 mix-blend-multiply"
             />
 
-            {/* Mouse Tracking Soft Light Mask */}
+            {/* Mouse Tracking Soft Light Mask - HIDDEN ON MOBILE */}
             <div
                 ref={cursorGlowRef}
-                className="absolute inset-0 z-10 transition-colors duration-200"
+                className="hidden md:block absolute inset-0 z-10 transition-colors duration-200"
                 style={{ background: 'radial-gradient(600px circle at center, rgba(162, 123, 49, 0), transparent 40%)' }}
             />
         </div>

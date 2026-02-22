@@ -165,7 +165,7 @@ const Hero = () => {
                 </motion.div>
             </motion.div>
 
-            {/* Decorative Dynamic Blur Circles */}
+            {/* Decorative Dynamic Blur Circles - HIDDEN ON MOBILE */}
             <motion.div
                 animate={{
                     y: [0, -20, 0],
@@ -177,7 +177,7 @@ const Hero = () => {
                     repeat: Infinity,
                     ease: "easeInOut"
                 }}
-                className="absolute top-1/4 -left-20 w-80 h-80 bg-gold/5 blur-[120px] rounded-full z-0"
+                className="hidden md:block absolute top-1/4 -left-20 w-80 h-80 bg-gold/5 blur-[120px] rounded-full z-0"
             ></motion.div>
             <motion.div
                 animate={{
@@ -191,7 +191,7 @@ const Hero = () => {
                     ease: "easeInOut",
                     delay: 1
                 }}
-                className="absolute bottom-1/4 -right-20 w-80 h-80 bg-gray-100 blur-[120px] rounded-full z-0"
+                className="hidden md:block absolute bottom-1/4 -right-20 w-80 h-80 bg-gray-100 blur-[120px] rounded-full z-0"
             ></motion.div>
 
             {/* Fade Out Edge to prevent hard lines between sections */}
