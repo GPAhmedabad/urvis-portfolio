@@ -43,6 +43,5 @@ next-env.d.ts
 messages.json
 
 # Large Files
-public/assets/with_modi.jpg
 *.mp4
 Awards/*.mp4
