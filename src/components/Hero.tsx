@@ -193,6 +193,9 @@ const Hero = () => {
                 }}
                 className="absolute bottom-1/4 -right-20 w-80 h-80 bg-gray-100 blur-[120px] rounded-full z-0"
             ></motion.div>
+
+            {/* Fade Out Edge to prevent hard lines between sections */}
+            <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-white to-transparent z-20 pointer-events-none flex"></div>
         </section>
     );
 };

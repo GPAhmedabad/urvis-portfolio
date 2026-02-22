@@ -1,107 +1,71 @@
 "use client";
 
 import React, { useEffect, useRef } from 'react';
+import { motion } from 'framer-motion';
 
 const ThreeBackground = () => {
-    const canvasRef = useRef<HTMLCanvasElement>(null);
-    const mouse = useRef({ x: -1000, y: -1000 });
-    const rafId = useRef<number>(0);
-    const blobPositions = useRef([
-        { x: 0.2, y: 0.3, vx: 0.0003, vy: 0.0004 },
-        { x: 0.7, y: 0.6, vx: -0.0002, vy: 0.0003 },
-        { x: 0.5, y: 0.2, vx: 0.0004, vy: -0.0003 },
-        { x: 0.3, y: 0.8, vx: -0.0003, vy: -0.0002 },
-    ]);
-
-
+    const mousePos = useRef({ x: 0, y: 0 });
+    const cursorGlowRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
-        const canvas = canvasRef.current;
-        if (!canvas) return;
-        const ctx = canvas.getContext('2d')!;
+        const handleMouseMove = (e: MouseEvent) => {
+            const x = e.clientX;
+            const y = e.clientY;
+            mousePos.current = { x, y };
 
-        const resize = () => {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-        };
-
-        const onMouseMove = (e: MouseEvent) => {
-            mouse.current = { x: e.clientX, y: e.clientY };
-        };
-
-        window.addEventListener('resize', resize);
-        window.addEventListener('mousemove', onMouseMove);
-        resize();
-
-        let time = 0;
-
-        const draw = () => {
-            const W = canvas.width;
-            const H = canvas.height;
-            time += 0.008;
-
-            // Clear
-            ctx.fillStyle = '#F8F6F0';
-            ctx.fillRect(0, 0, W, H);
-
-            // ── Moving Gradient Blobs ──────────────────────────────
-            const blobs = blobPositions.current;
-            blobs.forEach((b, i) => {
-                b.x += b.vx + Math.sin(time + i) * 0.0002;
-                b.y += b.vy + Math.cos(time + i * 1.3) * 0.0002;
-                if (b.x < 0 || b.x > 1) b.vx *= -1;
-                if (b.y < 0 || b.y > 1) b.vy *= -1;
-
-                const bx = b.x * W;
-                const by = b.y * H;
-                const radius = Math.min(W, H) * (i % 2 === 0 ? 0.38 : 0.28);
-
-                const grad = ctx.createRadialGradient(bx, by, 0, bx, by, radius);
-                if (i < 2) {
-                    // Gold blobs
-                    grad.addColorStop(0, 'rgba(162, 123, 49, 0.18)');
-                    grad.addColorStop(0.4, 'rgba(197, 160, 89, 0.10)');
-                    grad.addColorStop(1, 'rgba(197, 160, 89, 0)');
-                } else {
-                    // Navy blobs
-                    grad.addColorStop(0, 'rgba(26, 43, 90, 0.14)');
-                    grad.addColorStop(0.4, 'rgba(45, 74, 143, 0.07)');
-                    grad.addColorStop(1, 'rgba(45, 74, 143, 0)');
-                }
-                ctx.fillStyle = grad;
-                ctx.fillRect(0, 0, W, H);
-            });
-
-            // ── Cursor Glow ────────────────────────────────────────
-            const mx = mouse.current.x, my = mouse.current.y;
-            if (mx > 0) {
-                const cursorGlow = ctx.createRadialGradient(mx, my, 0, mx, my, 220);
-                cursorGlow.addColorStop(0, 'rgba(197, 160, 89, 0.22)');
-                cursorGlow.addColorStop(0.4, 'rgba(162, 123, 49, 0.10)');
-                cursorGlow.addColorStop(1, 'rgba(162, 123, 49, 0)');
-                ctx.fillStyle = cursorGlow;
-                ctx.fillRect(0, 0, W, H);
+            if (cursorGlowRef.current) {
+                // Instantly update the radial gradient mask position for absolute 0-latency tracking
+                cursorGlowRef.current.style.background = `radial-gradient(600px circle at ${x}px ${y}px, rgba(162, 123, 49, 0.08), transparent 40%)`;
             }
-
-
-            rafId.current = requestAnimationFrame(draw);
         };
 
-        draw();
-
-        return () => {
-            window.removeEventListener('resize', resize);
-            window.removeEventListener('mousemove', onMouseMove);
-            cancelAnimationFrame(rafId.current);
-        };
+        window.addEventListener('mousemove', handleMouseMove);
+        return () => window.removeEventListener('mousemove', handleMouseMove);
     }, []);
 
     return (
-        <canvas
-            ref={canvasRef}
-            className="absolute inset-0 z-0 w-full h-full"
-            style={{ display: 'block' }}
-        />
+        <div className="absolute inset-0 z-0 overflow-hidden bg-[#FFFFFF] pointer-events-none">
+            {/* Static Soft Background Gradients */}
+            <div className="absolute top-0 left-[-10%] w-[50%] h-[70%] bg-[radial-gradient(ellipse_at_center,_rgba(197,160,89,0.1)_0%,_transparent_70%)] rounded-full blur-3xl opacity-60"></div>
+            <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[80%] bg-[radial-gradient(ellipse_at_center,_rgba(45,74,143,0.05)_0%,_transparent_70%)] rounded-full blur-3xl opacity-60"></div>
+
+            {/* Slowly Floating Premium Orbs */}
+            <motion.div
+                animate={{
+                    y: [0, -40, 0],
+                    x: [0, 30, 0],
+                    scale: [1, 1.1, 1],
+                }}
+                transition={{
+                    duration: 15,
+                    repeat: Infinity,
+                    ease: "easeInOut"
+                }}
+                className="absolute top-[20%] right-[20%] w-[30%] h-[40%] bg-gold/10 rounded-full blur-[100px] opacity-40 mix-blend-multiply"
+            />
+
+            <motion.div
+                animate={{
+                    y: [0, 50, 0],
+                    x: [0, -40, 0],
+                    scale: [1, 1.2, 1],
+                }}
+                transition={{
+                    duration: 18,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                    delay: 2
+                }}
+                className="absolute bottom-[20%] left-[20%] w-[35%] h-[45%] bg-[#C5A02E]/10 rounded-full blur-[120px] opacity-30 mix-blend-multiply"
+            />
+
+            {/* Mouse Tracking Soft Light Mask */}
+            <div
+                ref={cursorGlowRef}
+                className="absolute inset-0 z-10 transition-colors duration-200"
+                style={{ background: 'radial-gradient(600px circle at center, rgba(162, 123, 49, 0), transparent 40%)' }}
+            />
+        </div>
     );
 };
 
