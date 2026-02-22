@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { NextResponse } from 'next/server';
 
-const apiKey = "AIzaSyAtEGqJ4HxEQywcYnTsmjj1YDJY0hspNBs";
+const apiKey = "AIzaSyCv0vJSqcbDEGDws9w7CqJhBl1yi71Dj3Y";
 const genAI = new GoogleGenerativeAI(apiKey);
 
 export async function POST(req: Request) {
@@ -28,7 +28,7 @@ If asked a question outside of these topics or your profession, politely pivot t
 Keep your responses short, ideally 1-3 sentences.`;
 
         const model = genAI.getGenerativeModel({
-            model: "gemini-1.5-flash",
+            model: "gemini-2.5-flash",
             systemInstruction: systemPrompt
         });
 
