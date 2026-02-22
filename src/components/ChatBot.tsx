@@ -18,7 +18,6 @@ export default function ChatBot() {
     const [input, setInput] = useState('');
     const [isLoading, setIsLoading] = useState(false);
     const messagesEndRef = useRef<HTMLDivElement>(null);
-    const inputRef = useRef<HTMLInputElement>(null);
 
     const scrollToBottom = () => {
         messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -27,16 +26,6 @@ export default function ChatBot() {
     useEffect(() => {
         scrollToBottom();
     }, [messages, isOpen, isLoading]);
-
-    // Auto-focus input when chatbot opens or finishes loading
-    useEffect(() => {
-        if (isOpen && !isLoading && inputRef.current) {
-            // Small timeout to ensure the animation/render completes first
-            setTimeout(() => {
-                inputRef.current?.focus();
-            }, 100);
-        }
-    }, [isOpen, isLoading]);
 
     const handleSend = async (e?: React.FormEvent) => {
         e?.preventDefault();
@@ -130,7 +119,6 @@ export default function ChatBot() {
                         {/* Input Area */}
                         <form onSubmit={handleSend} className="p-3 bg-white border-t border-gray-100 flex items-center gap-2">
                             <input
-                                ref={inputRef}
                                 type="text"
                                 value={input}
                                 onChange={(e) => setInput(e.target.value)}
