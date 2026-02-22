@@ -1,0 +1,706 @@
+
+
+ 
+ 
+Soni Urvish Pravinkumar 
+ 
+ 
+ 
+CAREER OBJECTIVE
+: 
+ 
+"
+कर्तव्य
+ं
+ 
+योगेन
+ 
+च
+ 
+क
+ु
+र्वीर्।
+" 
+Perform your duties with devotion and excellence. 
+ 
+EMPLOYMENT:  
+ 
+Timeline: Oct 2015 to till date 
+ 
+GPSC - Class II Officer - Lecturer: Instrumentation and Control Engineering, 
+Government Polytechnic Ahmedabad  
+ 
+CEO : Project and Innovation Lab :  Startup Incubator  
+  
+Startup Mentor : Oqpy ; Zero dirt Machines, Vayu Rakshak , Amrut Bhumi - Ambh , 
+Nitya JAL , Brick Making Machine ; Organic Bricks ; Tinkering Champ  
+ 
+Committee Member: Worked for Admission Committee for Professional Diploma Course 
+ACPDC  
+ 
+TimeLine: July 2012 to March 2015 
+ 
+●
+ 
+Led Maintenance (Instrumentation) department of Clean Fuel Complex, SEZ Refinery, 
+Reliance Industries Limited, Jamnagar Manufacturing Division as Manager. 
+ 
+●
+ 
+Worked at CRUDE DISTILLER UNIT, DTA Refinery, Reliance Industries Limited, 
+Jamnagar Manufacturing Division as GET; Instrumentation engineer. 
+ 
+ 
+Brief of Job Scope and Responsibilities:  
+ 
+●
+ 
+Ensuring compliance to standards Procedures and best practices. 
+●
+ 
+100% PM/CM (Predictive Maintenance / Corrective Maintenance) compliance with running unit. 
+Tracking PM & PdM, executing, completion tracking and maintaining zero deviation throughout.  
+●
+ 
+Reduction in spares, inventory value optimization, analyze Maintenance cost and budgeting. 
+●
+ 
+Participation  in  Reliability  &  Integrity  studies.  Conduct  regular  troubleshooting  and  analysis  like: 
+RCA(Root cause Analysis); HAZOP study, SIL study, Health safety and environment study 
+●
+ 
+Looked after and proficient in online sample analyzers like: H2S Gas chromatograph, Sulfur, Flash 
+Point, Distillation and TOC (total organic carbon) Analyzer. 
+●
+ 
+Fire  and  Gas,  PLC  ,  DCS,  ESD  (Emergency  Shutdown)  and  System  monitoring    checking  and 
+improvements 
+●
+ 
+ DCS,ESD,PLC Requirement study, installation, Programming (Online /Offline), Communication 
+Network  Design,  Maintenance,  HMI  Design  (Panel  View),  3rd  party  integration  :  Braun  ,  (  Compressor 
+
+ 
+ 
+Control Corp )CCC , Woodward Turbine Control , Bentley Nevada Machine condition Monitoring System 
+, PLC system up gradation, ESD system interconnections. SIL (safety Integrity Level) classification, HAZOP 
+analysis, RCA (Root cause Analysis)   
+●
+ 
+Regular checking and troubleshooting of rotary equipment: Pumps, Compressors, Fin-Fans, FD-ID 
+fans etc. 
+●
+ 
+ Efficient planning and of all allocated jobs in running plant as well as in unit shutdown. 
+●
+ 
+Documentation  /  planning  /  Scheduling  and  Job  tracking  in  SAP.  Check  sheets  and  Audit  related 
+document preparation. 
+●
+ 
+Work Order creation, Job Planning, execution tracking, Job history creation, material management 
+for shutdowns, non-shutdown events, Opportunity Maintenance and breakdowns with SAP  
+●
+ 
+Competency development seminars given to new joiners, GETs, Training session for contactors and 
+sub ordinates. 
+●
+ 
+Improve safety records of plant through regular  interaction with contract workers.  Conduct CFA: 
+contractor filed audits as per procedure and guidelines. 
+●
+ 
+Ensure effective and time bound execution of ongoing projects as well as new projects. 
+●
+ 
+Lead  the  maintenance  team  to  achieve  excellence  in  all  aspect  :  routine  jobs,  emergency  conditions 
+,soft skills and technical development 
+ 
+ 
+ 
+    
+ACADEMICS:
+ 
+ 
+Completed Bachelor  in  Technology in Instrumentation  &  Control at  Institute  of 
+Technology, Nirma University 
+●
+ 
+Got placed through campus selection process in Reliance Industries limited  
+Senior Secondary & Higher Secondary Examination: 
+Board: Gujarat Secondary and Higher Secondary Education (GSHEB) 
+School: Kameshwer Vidhalaya, Jodhpur cross road, Ahmedabad  
+ 
+Exam Year of Passing 
+Board/University
+ Class Achievement 
+BTECH 2012 Nirma University Distinction 72.90% 
+HSC 2008 
+GSHEB
+ Distinction 88.30% 
+SSC 2006 
+GSHEB
+ Distinction 89.71% 
+ 
+ 
+ 
+HANDS ON WORKING EXPERIENCE ON:
+ 
+●
+ 
+Crude Distiller Unit :Plant Process and Machinery  
+●
+ 
+Clean Fuel Projects: Hydrotreaters , Hydrocraker & Utilities     
+●
+ 
+Thomasson Reciprocating Compressors  
+●
+ 
+MAN Turbo Centrifugal Compressors 
+●
+ 
+GE Screw Compressor 
+●
+ 
+Hearty Fired Heaters  
+
+ 
+●
+ 
+Filtex Packages (Feed Filters) 
+●
+ 
+Desalter Package 
+●
+ 
+Shoot Blowers, HVAC controls 
+●
+ 
+Lube oil systems  
+●
+ 
+Plant Instruments, Fire and Gas detectors, Inline Sensors  
+●
+ 
+HART, Conventional and FF communication protocol  
+ 
+  
+TECHNICAL & COMPUTER SKILLS:
+ 
+ 
+ 
+●
+ 
+Online Insitu Analyzers:  
+Routine checks , Maintenance and troubleshooting  
+o
+ 
+SIEMENS MAXUM II gas chromatograph (GC) Service : Hydrogen Sulphite  
+o
+ 
+Sick MAHEK TOC : Total Organic Carbon Service: Cooling Water 
+o
+ 
+SOX-NOX stack analyzers, Service : Stack flue Gases 
+o
+ 
+Thermo Fisher : SOLA 2  online Sulfur analyzer  Service : Ultra Low sulfur diesel (ULSD)  
+o
+ 
+Flash Point analyzer, Amtek O2-CO stack analyzers Service: Stack flue Gases 
+●
+ 
+Programmable Logic Controller:  
+Requirement study, Installation, Programming (online/offline), Routine checks , Maintenance and 
+troubleshooting  
+o
+ 
+Rockwell /Allen Bradly : RSLogicx 5000 / 5 : Contrologix ,Compactlogix , 
+▪
+ 
+Factory  talk : PanelView Programming (HMI) ;RS linx : RS networks : Communication :Active  
+keeper Management ;Language: Ladder Logic programming 
+o
+ 
+Siemens: S7-300 / S7-400SIMATIC STEP 7 
+▪
+ 
+S7 Series Programming ; Language : STL ,Ladder Logic 
+o
+ 
+Fire and Gas Instrumentation: Honeywell Safety Manager PLC ; Fire and Gas Systems ;Ladder 
+Logic ;FM 200 System , Different type of F&G detectors 
+●
+ 
+Machine Condition and Monitoring System (MCMS) 
+Requirement study, Installation, Programming (online/offline) for machine vibration and safety of 
+equipment  
+o
+ 
+GE- Bentley Nevada Systems: System 1 Configurations  
+o
+ 
+Vibration probes : Accelerometer; Velo-meter; Proxy-meter 
+o
+ 
+Vibration monitor 3500 installation and programming  
+●
+ 
+DCS/ESD:  
+Requirement study, Installation, Programming (online/offline), Routine checks , Maintenance and 
+troubleshooting  
+
+ 
+o
+ 
+Foxboro Invensys DCS and Triconix Invensys ESD system programming , System Alarm 
+Configurations , Health and Network Monitoring  
+●
+ 
+Circuit Design and Simulation: Multisim, PSpice, OrCAD, Eagle PCB  
+●
+ 
+Microcontroller Development:
+ Raspberry Pi, 
+Keil uVision, MikroC, LPCxpresso 
+COTEX M0 
+ARM 
+development IDE, Arduino Open Source, AVRdude, LPC Tool Universal Programmer  
+●
+ 
+Programming: C/C++, 8085 and 8051 Assembly, HTML, JavaScript ,XML, XHTML, CSS 
+●
+ 
+Arch Linux : Raspberry Pi and peripherals  
+●
+ 
+Virtual Instrumentation: LabVIEW  : Programming Tools, TCP/IP and DATA Communication, 
+Data Acquisition, Control Design and Simulation, Image tools Signal processing, NI Vision, User defined 
+(Satellite) Data and Image Reception System 
+●
+ 
+MATLAB: Control System and Design Tools, Embedded tools,  Simulink Coder, DSP Toolboxes, 
+MATLAB Coder and Simulink Tool , Nonlinear System Tools, Integration of LABVIEW and MATLAB 
+Platforms , Video and Image Processing Toolboxes   
+●
+ 
+Wireless and Microwave Simulation: X-CTU Interactive Zigbee, TOSSIM Wireless Network 
+Simulator and Network Stimulator NS2 
+●
+ 
+IDEs: Develop (Eclipse), Arduino, Net Beans, Processing, AutoIt  
+●
+ 
+Others:
+ 
+scilab-5.3.2 
+for Artificial Neural Network Implementation, Visual Basics 6, MS office,
+ 
+Corel 
+Draw X4 
+●
+ 
+CPLD/FPGA: VHDL on ISE Xilinx   
+ 
+ 
+ 
+PROJECTS UNDERTAKEN
+: 
+ 
+ 
+(Work Place) 
+Heat Exchanger Leak Study and Process Improvements 
+Diesel Hydrotreater process has a S04 (A/B/C/D) Heat exchanger trains. After few process 
+change  on  crude  plant.  Frequent  breakdowns  of  these  Exchangers  where  observed.  Got 
+selected from Jamnagar refinery for D4 Project: Innovative Idea Generation for that project. 
+Suggested very innovative ideas to rectify the breakdowns. 
+  (Academic Curriculum)
+ 
+Major Project: 
+Organization : Space Application Center, ISRO Ahmedabad 
+ 
+Real Time Data Acquisition , Processing and Display System for Telemetry and Video DATA of 
+INSAT-3D Imager Payload:  
+ 
+Design of Hardware and Real Time Software for Receiving Data From Base Band Signals through TCP/IP and 
+Prediction  Algorithm and trend  analysis for  Telemetry  Data,  Development  of  Graphical  User  Interface  in 
+
+LabVIEW  for  Telemetry  and  Video  channel  for  Imager  Payload  for  Monitoring  Health  of  payload  on  the 
+satellite. 
+ 
+Artificial Neural Network on Chip: Most error proof and very accurate Neural network Concept 
+Dumped Using MATLAB tools “NFTOOL” and “embedded Coder” in a Microcontroller chip.(Minor 
+Project) 
+Real time Controller:  Made a real time Proportional controller for acid tank using LabVIEW 
+Implemented the controller without control system tools but only logical functions. 
+Chopper: A boost converter which can work like a DC transformer used in SMPS, Power Electronics. The 
+device is able to convert 12 VDC to 300 VDC  output   
+Wireless Sensor Networking Using Microcontrollers and RF Modules – Transfer of values like 
+Temperature and Humidity on a port of microcontroller from one node to another node via Radio Frequency 
+waves and Presented Idea for WSN in Agriculture via mobile node. 
+ 
+ 
+Spy FM Transmitter: A coin size FM transmitter can be used as a spy for listening the secret talk or 
+conversation which can be received in Mobile phones or any FM receivers.  
+10x7 LED Dot Matrix Display using AT89c52 Microcontroller Printed “SAM ROCKS” on the display 
+and made it Scrolling ,all Work Done on PCBs Professionally  self-Made in Eagle 5.0.2 Software  
+Sound Amplitude: Made a sound wave gain Viewer with LM3915 one Hardware compatibles with T.V., 
+Mobile phone, I Pod, Laptop and PC with 3.5mm jack given in it. 
+SALLEN Key filter: Build a High Pass filter can use as amplifier and Butterworth filter. 
+A Electronics Store: A full online electronic store created having all the option for buying Branded items, 
+service center and  Customer Database System using Visual Basic 6.0 
+(Extra Academic Curriculum)
+ 
+Adaptive Traffic Resolution System (ATRS) – a traffic resolution algorithm developed over a wireless 
+sensor network and capable of adapting the all possible traffic situations  
+ 
+AVR Based Wireless Sensor Networks over Zigbee protocol – implementation of Zigbee protocol in the 
+area designated for sensing parameters like Temperature. 
+Arduino Based Wireless Sensor Networking by Demonstrating Temperature Relay Nodes – Transfer 
+of values of different parameters from one node to another node via RF Modules at 433 MHz unlicensed 
+band Research Project  
+Arduino Based Oscilloscope Tracking Input Waveform Changes and Display – The tracking of input 
+voltage waveform changes and its display on the computer screen in real-time  
+IRS (Intelligent Register Control System) Camera Feed Design and Rotary Encoder Interfacing 
+With Controller – Feeding the camera with a preset value of spacing to spot the mark and encoder 
+interfacing to get the counts  
+Research Project: Industry Application  
+AVR LCD interfacing: 16x2 LCD interfacing with ATmega32 Microcontroller with parallel port 
+programming. 
+
+ 
+ 
+Light Emitting Diodes, OLEDs and AMOLEDs – The emission of light and recent advancements  
+ 
+ 
+SEMINARS & PAPERS: 
+  
+●
+ 
+Seminars   and   lectures   delivered   in   Reliance   Jamnagar   on   Instrumentation,   Data 
+Networking, and Online Analyzers. 
+●
+ 
+Multi  side  seminar  for  JMD,  VMD,  PMD  &  HMD  delivered  with  the  topic  on  online 
+analyzers.  
+●
+ 
+Got Youngest Subject Matter Expert in Reliance Jamnagar 
+●
+ 
+Presented seminar on Artificial Neural networks. 
+●
+ 
+Presented seminar on “Computer used in Bio Medial Field” for Bio medical Instrumentation. 
+●
+ 
+Presented seminar on Self Discipline under the program of Career Orientation. 
+●
+ 
+Motivational seminar given to school students of 11
+th
+ & 12
+th
+ Sci.  In my Alma mater.  
+●
+ 
+Term Papers:  
+o
+ 
+Advance Detectors in Measurement Techniques. 
+o
+ 
+Two Product Distillation column Process control. 
+o
+ 
+Home Automation solutions using Microprocessors. 
+o
+ 
+Software used in Calibration and Control in Instrumentation System. 
+ 
+ 
+WORKSHOPS AND EXTRA COURSE: 
+ 
+ 
+●
+ 
+Completed 1 year training program as Graduate Engineer Trainee in DTA Crude distiller plant at 
+Reliance Jamnagar refinery. 
+●
+ 
+Attended  4  day  seminar  on Machine  condition  and  monitoring  system at  learning  center  RIL, 
+JMD 
+●
+ 
+Attended 4 day seminar on PLC programming of Allen bready controllogix at learning center 
+RIL, JMD 
+●
+ 
+Attended 4 day seminar on Siemens S7-300 S7-400 PLC at learning center RIL, JMD 
+●
+ 
+Attended 4 day seminar on  Process Control system and behavior at learning center RIL, JMD 
+●
+ 
+Attended  2  day  seminar  on Use  of  Microsoft  Project  2013  for  project  scheduling at  learning 
+center RIL, JMD 
+●
+ 
+Attended 4 day seminar on “SAP systems and its use” at learning center RIL, JMD 
+●
+ 
+Attended 2 day seminar on Emergency Shutdown System at learning center RIL, JMD 
+●
+ 
+Attended 2 day seminar on SIX SIGMA YELLOW Belt at learning center RIL, JMD 
+●
+ 
+Attended   a   one   month   research   on Embedded   Systems,   Design Robotics   and   Physical 
+Computing Based On ARDIUNO and Processing under  Vikram A Sarabhai Community Science Center, 
+Ahmedabad (VASCSC) 
+●
+ 
+Attended “Robo Basics” Work Shop for making 
+Robot car, Pick & Place Robot and line follower 
+robot
+ Organized by ROBO-TECH Club of Nirma University. 
+●
+ 
+Attended the Antenna Design Workshop by Prof. Dhaval Pujara organized by ECO and IEEE  
+●
+ 
+Programming  in “C” language     the  extra  course  passed  with “A” grade  in  Genius  Computer 
+Ahmedabad. 
+●
+ 
+A level Cleared in “Speed ARITHMETICS” with 97% in IPA Vastrapur Ahmedabad.  
+ 
+ 
+ 
+
+ 
+ACHIEVEMENTS / PARTICIPATION
+: 
+ 
+●
+ 
+Awarded National  Award  for  Teachers  2025 by President  of  INDIA Shri  Draupadi  Murmu 
+organized by Ministry of Education, Government of INDIA on 5
+th
+ Sept 2025.  
+●
+ 
+Awarded  Best  Innovator  award  by  climate  change  Department,  Government  of  Gujarat  for  the 
+innovation of Brick Making machine with One lakh rupee of prize money. 
+●
+ 
+Awarded Best Pedagogical Activity awarded by GTU in GTU Sankul Awards. 
+●
+ 
+Awarded 4 times for Process Improvements and Revenue generation suggestions at Reliance 
+refinery. 
+●
+ 
+Got Youngest Subject Matter Expert in Reliance Jamnagar for delivering multi-site Online 
+Analyser workshop. 
+●
+ 
+Secured High Performer GET award for one year in Reliance, Training Period among 150 GETs 
+from site president Jamnagar Refinery.  
+●
+ 
+Won an MSP-EXP430FR5739 Experimenter Board from element14 and Texas Instruments 
+on a ROADTEST Competition organized by element14 United Kingdom on March 28, 2012  
+●
+ 
+Secured  1
+st
+ rank  in  Paper-o-Zone,  a  paper  presentation  competition  in  NU-TECH  2012 A 
+National Level Technical Symposium Organized by Nirma University Inaugurated by Shri Narendra Modi 
+on 16
+th
+ February 2012 
+●
+ 
+Awarded an  Apple  iPad2  (3G  +  WiFi)
+ 
+by NXP  semiconductors, 
+EINDHOVEN-The 
+Netherlands
+ as a Grand Prize winner in “Show us your discrete workbench” among  more  than  75 
+international entries on 22
+nd
+ December 2011. 
+●
+ 
+Awarded an Apple iPad2
+ 
+by NXP semiconductors, San Joes, USA as a Grand Prize winner in 
+“I2C  bus  challenge”, Interface Products for an innovative idea and most interesting Project among 1100 
+international entries. 
+●
+ 
+Awarded  an  XL_STAR  Development  Board which  contains  a  Freescale    8-Bit  MCU  based 
+development  environment,  debugger  and  accelerometer  demonstration  board  by FARNELL  ,UK for  an 
+innovative idea in application of accelerometer in industries.  
+●
+ 
+Awarded an LPCxpresso  COTEX  M0  ARM development  kit  By NXP  semiconductors for 
+approved Submission  of  a  microcontroller  project  of  scrolling  LED  matrix  display  in  an International 
+Competition named “Break your 8/16-bit habit”. 
+●
+ 
+Awarded  1
+st
+ for  presenting “HVAC-Humidity Ventilation Air Conditioning” in the “Think 
+Green” idea presentation the title event of blitzkrieg 11 A National Level Technical Symposium. 
+●
+ 
+Awarded  1
+st
+ for presenting “Green Electricity from sea waves” in an  idea  presentation 
+competition in Prevoence’11 A National Level Technical Symposium. 
+●
+ 
+Awarded  1
+st
+ for  presenting  innovative  Idea  for  selling  NIF(National  Innovation  Foundation) 
+category    product  in Business    plan presentation in Technofora  11               A  National  Level  Technical 
+Symposium. 
+●
+ 
+Won 1
+st
+ prize in Paper Presentation Competition organized by LEO CLUB, NIT ROURKELA. 
+
+ 
+ 
+●
+ 
+Winner of “CI++ER” the coding competition of C/C++ in Technofora 11               A National 
+Level Technical Symposium. 
+●
+ 
+Winner for presenting “Vertical Axis Wind Turbines” in the paper presentation competition in 
+Technofora’11 A National Level Technical Symposium 
+●
+ 
+Winner of selection round in “Techo-Champ  2011” Agriculture development competition 
+organized  by John  Deere  International  ,Pune among 50 countries for presenting “Cost  effective  Wireless 
+Sensor Network for Agriculture growth”.    
+●
+ 
+Finalist in Triumph ’09 with highest  rank in “Spell  bee and The Company identification” 
+Organized by ISTE Students Chapter. 
+●
+ 
+Finalist in “BLUE” the Aqua ROBOTICS in Technofora ’11 for “Water JET Robot”. 
+●
+ 
+Participated in Chemozal ’10 A National Level Technical Symposium in Poster Presentation and 
+Achieved a selection of  idea in Idea Presentation (Xploravision). 
+●
+ 
+Participated  in i-Fest  09 A  National  Level  Technical  Symposium in Robotics and Achieved  a 
+selection of paper in  Paper Presentation. 
+●
+ 
+Ingenium 2009 A National Level Technical Symposium secure the participation achievement in  
+Tellurica-Robotics For  line Follower, Aqua-soil Robot and Wall sensor robot and Achieved a final selection 
+of  paper in  Paper Presentation. 
+●
+ 
+Participated in Technofora X A National Level Technical Symposium and Achieved a final selection 
+of paper in Paper Presentation. 
+●
+ 
+Presented  a Paper and  a Business  plan in Technofora ’09 and secure  participation  achievement in 
+Dominoes-The chain Reaction and Robo Olympiad for “Autonomous Robot vehicle”.  
+●
+ 
+Certified  By Gujarat  Vidhyapith For serving the National Language “HINDI” by honoring the 
+“Hindi VINIT”.  
+●
+ 
+Achieved “A” grade in “Intermediate Drawing Grade Examination” taken By State Exam Board 
+in September 2003. 
+●
+ 
+A Full Page Idea Published in the Yearly Event Magazine of Ingenium ’11 on the topic of “Vertical 
+Axis Wind Turbines”. 
+●
+ 
+An Abstract on “Electricity Production” Published In the i-Mag yearly magazine of ISTE club for 
+the event i-Fest 09 A National Level Technical Symposium. 
+●
+ 
+ An Abstract on “Sea Waves and Electricity” Published in yearly magazine of MESA club for the 
+event Ingenium 2009 A National Level Technical Symposium. 
+ 
+ORGANIZATIONAL SKILLS
+: 
+ 
+●
+ 
+Organized seminars and events in reliance greens, Jamnagar  
+●
+ 
+Worked  as  a  representative  of  I.C.  Branch  in Anti  Ragging  Committee under Director  Sir for 
+Institute of Technology, Nirma University. 
+
+ 
+ 
+●
+ 
+Worked  as The student  Placement  coordinator for  2012  pass  out  Batch  of  IC 
+in 
+Industry 
+Institution and Interaction
+ (Placement) cell of Nirma University. 
+●
+ 
+Worked    as  a Member for organizing ‘Technofora’- Annual  Technical  Event  conducted  by 
+International Society of Automation (ISA) Club of Nirma University for 2010-2011
+ 
+   
+ 
+ 
+PERSONAL PROFILE: 
+ 
+ 
+Address F/62 Goyal Complex, Opp. Ashima Tower, Bodakdev, Ahmedabad, 
+Gujarat, India -380054 
+Contact Number (+91) 942-853-2878 
+Date of Birth December 29
+th
+ 1990 
+Gender Male 
+Status Unmarried 
+E-mail 
+ 
+Upsoni@gpahmedabad.ac.in 
+Urvish.ic@gmail.com  
+Skype urvish2912 
+Known Languages English, Hindi, Gujarati 
+ 
+ 
+ 
+DECLARATION: 
+ 
+ 
+I hereby declare that the above-mentioned information is true to the best of my knowledge.
+ 
+I consider 
+myself familiar with various aspects of Instrumentation and Control Engineering. I am a dedicated 
+learner,  sincere  in  all  my  endeavors  and  have  a  good  temperament  to  work  in  a  team.  I  also  like 
+learning new topics that are of interest and concern to me. 
+ 
+ 
+ 
+ 
+URVISH SONI 
+Place: 
+Ahmedabad
+ 
+ 
