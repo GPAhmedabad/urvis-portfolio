@@ -18,6 +18,7 @@ export default function ChatBot() {
     const [input, setInput] = useState('');
     const [isLoading, setIsLoading] = useState(false);
     const messagesEndRef = useRef<HTMLDivElement>(null);
+    const inputRef = useRef<HTMLInputElement>(null);
 
     const scrollToBottom = () => {
         messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -26,6 +27,16 @@ export default function ChatBot() {
     useEffect(() => {
         scrollToBottom();
     }, [messages, isOpen, isLoading]);
+
+    // Auto-focus input when chatbot opens or finishes loading
+    useEffect(() => {
+        if (isOpen && !isLoading && inputRef.current) {
+            // Small timeout to ensure the animation/render completes first
+            setTimeout(() => {
+                inputRef.current?.focus();
+            }, 100);
+        }
+    }, [isOpen, isLoading]);
 
     const handleSend = async (e?: React.FormEvent) => {
         e?.preventDefault();
@@ -97,8 +108,8 @@ export default function ChatBot() {
                             {messages.map((msg, i) => (
                                 <div key={i} className={`flex max-w-[85%] ${msg.isBot ? 'self-start' : 'self-end'}`}>
                                     <div className={`p-3.5 text-[13.5px] leading-relaxed shadow-sm ${msg.isBot
-                                            ? 'bg-white text-gray-800 rounded-2xl rounded-tl-sm border border-gray-100'
-                                            : 'bg-gold text-white rounded-2xl rounded-tr-sm'
+                                        ? 'bg-white text-gray-800 rounded-2xl rounded-tl-sm border border-gray-100'
+                                        : 'bg-gold text-white rounded-2xl rounded-tr-sm'
                                         }`}>
                                         {msg.text}
                                     </div>
@@ -119,6 +130,7 @@ export default function ChatBot() {
                         {/* Input Area */}
                         <form onSubmit={handleSend} className="p-3 bg-white border-t border-gray-100 flex items-center gap-2">
                             <input
+                                ref={inputRef}
                                 type="text"
                                 value={input}
                                 onChange={(e) => setInput(e.target.value)}
@@ -130,8 +142,8 @@ export default function ChatBot() {
                                 type="submit"
                                 disabled={!input.trim() || isLoading}
                                 className={`p-2.5 rounded-full flex items-center justify-center transition-all ${input.trim() && !isLoading
-                                        ? 'bg-gold text-white shadow-md hover:scale-105'
-                                        : 'bg-gray-100 text-gray-400'
+                                    ? 'bg-gold text-white shadow-md hover:scale-105'
+                                    : 'bg-gray-100 text-gray-400'
                                     }`}
                             >
                                 <Send size={18} className={input.trim() && !isLoading ? 'ml-0.5' : ''} />
