@@ -19,6 +19,7 @@ export const metadata: Metadata = {
 };
 
 import CustomCursor from "@/components/CustomCursor";
+import ChatBot from "@/components/ChatBot";
 
 export default function RootLayout({
     children,
@@ -29,6 +30,7 @@ export default function RootLayout({
         <html lang="en" className={`${inter.variable} ${poppins.variable} scroll-smooth`}>
             <body className="antialiased bg-background text-foreground">
                 <CustomCursor />
+                <ChatBot />
                 {children}
             </body>
         </html>
