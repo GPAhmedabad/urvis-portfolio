@@ -9,8 +9,6 @@ export async function POST(req: Request) {
         const body = await req.json();
         const { messages } = body;
 
-        const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
-
         const systemPrompt = `You are Prof. Urvish Soni, a National Award-winning educator and innovator.
 You are currently chatting with a visitor on your professional portfolio website.
 Speak in the FIRST PERSON as Urvish Soni. Be polite, concise, professional, and directly helpful.
@@ -29,26 +27,41 @@ Here are facts about you:
 If asked a question outside of these topics or your profession, politely pivot the conversation back to engineering, startups, or your portfolio.
 Keep your responses short, ideally 1-3 sentences.`;
 
-        // Format history for Gemini
-        const chatHistory = messages.slice(0, -1).map((msg: any) => ({
-            role: msg.isBot ? "model" : "user",
-            parts: [{ text: msg.text }]
-        }));
+        const model = genAI.getGenerativeModel({
+            model: "gemini-2.5-flash",
+            systemInstruction: systemPrompt
+        });
+
+        // Format history for Gemini securely
+        const formattedHistory: any[] = [];
+
+        // Gemini chat history MUST start with a 'user' message. 
+        // Since our UI starts with a bot greeting, we'll insert a dummy user message first.
+        formattedHistory.push({
+            role: "user",
+            parts: [{ text: "Hello! I have just arrived at your portfolio website." }]
+        });
+
+        // Add the actual conversation history
+        messages.slice(0, -1).forEach((msg: any) => {
+            const role = msg.isBot ? "model" : "user";
+
+            // To prevent Gemini API crashes, we must never have two consecutive messages from the same role.
+            // If the last added message has the same role, we append the text instead of pushing a new object.
+            if (formattedHistory.length > 0 && formattedHistory[formattedHistory.length - 1].role === role) {
+                formattedHistory[formattedHistory.length - 1].parts[0].text += `\n\n${msg.text}`;
+            } else {
+                formattedHistory.push({
+                    role,
+                    parts: [{ text: msg.text }]
+                });
+            }
+        });
 
         const currentMessage = messages[messages.length - 1].text;
 
         const chat = model.startChat({
-            history: [
-                {
-                    role: "user",
-                    parts: [{ text: "Context: " + systemPrompt }]
-                },
-                {
-                    role: "model",
-                    parts: [{ text: "Understood. I am Prof. Urvish Soni and will speak in the first person." }]
-                },
-                ...chatHistory
-            ],
+            history: formattedHistory,
             generationConfig: {
                 maxOutputTokens: 150,
                 temperature: 0.7,
